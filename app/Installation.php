@@ -4,6 +4,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Installation extends Model {
 
-	protected $fillable = ['device_token'];
+	protected $fillable = ['device_token','device_type'];
 
 }

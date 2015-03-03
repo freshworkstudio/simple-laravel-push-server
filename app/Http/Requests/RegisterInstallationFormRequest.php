@@ -22,7 +22,8 @@ class RegisterInstallationFormRequest extends Request {
 	public function rules()
 	{
 		return [
-			'device_token'	=> 'required|min:10'
+			'device_token'	=> 'required|min:10',
+			'device_type'	=> 'required',
 		];
 	}
 

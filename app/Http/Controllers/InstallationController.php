@@ -16,7 +16,8 @@ class InstallationController extends Controller {
 	public function register(Installation $installation, RegisterInstallationFormRequest $request)
 	{
 		$installation::create([
-			'device_token'	=> $request->get('device_token')
+			'device_token'	=> $request->get('device_token'),
+			'device_type'	=> $request->get('device_type')
 		]);
 
 		return \Response::json(['status' => 'ok']);
