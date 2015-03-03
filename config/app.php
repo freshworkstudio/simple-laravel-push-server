@@ -1,6 +1,7 @@
 <?php
 
 return [
+	'fw_api_key'	=> 'l^n)>Ns$3TR303p2hC&PugCCW"5fQKz3XCx492~g!lC9@AvJ8X2G<X}w2FZbjfj',
 
 	/*
 	|--------------------------------------------------------------------------
